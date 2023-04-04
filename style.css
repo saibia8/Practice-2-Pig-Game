@@ -26,7 +26,6 @@ body {
 main {
   position: relative;
   width: 100rem;
-  height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
@@ -34,6 +33,7 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
+  height: 100vh;
 }
 
 .player {
@@ -164,4 +164,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
 }
